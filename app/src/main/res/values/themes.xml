@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Theme.AppLibros" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary branding color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary branding color. -->
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorSecondaryVariant">@color/colorAccentDark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Tema para la categoría de Terror -->
+    <style name="Theme.AppLibros.Terror" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/terrorPrimary</item>
+        <item name="colorPrimaryVariant">@color/terrorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/terrorAccent</item>
+        <item name="colorSecondaryVariant">@color/terrorPrimaryDark</item>
+        <item name="colorOnSecondary">@color/white</item>
+    </style>
+
+    <!-- Tema para la categoría de Romance -->
+    <style name="Theme.AppLibros.Romance" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/romancePrimary</item>
+        <item name="colorPrimaryVariant">@color/romancePrimaryDark</item>
+        <item name="colorOnPrimary">@color/romanceText</item>
+        <item name="colorSecondary">@color/romanceAccent</item>
+        <item name="colorSecondaryVariant">@color/romancePrimaryDark</item>
+        <item name="colorOnSecondary">@color/romanceText</item>
+    </style>
+
+</resources>

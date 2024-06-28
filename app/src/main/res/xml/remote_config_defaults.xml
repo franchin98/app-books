@@ -1,0 +1,23 @@
+<defaultsMap>
+    <entry>
+        <key>window_background_color_terror</key>
+        <value>#4E4E4E</value>
+    </entry>
+    <entry>
+        <key>window_background_color_romance</key>
+        <value>#FFC0CB</value>
+    </entry>
+    <entry>
+        <key>window_background_color_default</key>
+        <value>#FFFFFF</value>
+    </entry>
+    <entry>
+        <key>welcome_message</key>
+        <value>¡Bienvenido a App Libros!</value>
+    </entry>
+    <entry>
+        <key>welcome_message_color</key>
+        <value>#009624</value> <!-- Verde oscuro -->
+    </entry>
+
+</defaultsMap>

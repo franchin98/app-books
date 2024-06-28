@@ -1,0 +1,29 @@
+<resources>
+    <color name="colorPrimary">#212121</color> <!-- Gris oscuro -->
+    <color name="colorPrimaryDark">#000000</color> <!-- Negro -->
+    <color name="colorAccent">#00C853</color> <!-- Verde -->
+    <color name="colorAccentDark">#009624</color> <!-- Verde oscuro -->
+    <color name="windowBackground">#FFFFFF</color> <!-- Blanco -->
+    <color name="textColor">#FFFFFF</color> <!-- Blanco -->
+    <color name="hintColor">#757575</color> <!-- Gris claro -->
+    <color name="buttonBackground">#000000</color> <!-- Negro -->
+    <color name="white">#FFFFFF</color> <!-- Blanco -->
+    <color name="black">#000000</color> <!-- Negro -->
+    <color name="gray">#808080</color> <!-- Gris -->
+    <color name="lightGray">#D3D3D3</color> <!-- Gris claro -->
+
+    <color name="defaultBackgroundColor">#FFFFFF</color> <!-- Color de respaldo -->
+
+    <!-- Terror Colores -->
+    <color name="terrorPrimary">#4A4A4A</color> <!-- Gris oscuro -->
+    <color name="terrorPrimaryDark">#212121</color> <!-- Negro -->
+    <color name="terrorAccent">#D32F2F</color> <!-- Rojo -->
+    <color name="terrorBackground">#303030</color> <!-- Gris oscuro -->
+
+    <!-- Romance Colores -->
+    <color name="romancePrimary">#FFC1E3</color> <!-- Rosa claro -->
+    <color name="romancePrimaryDark">#FF80AB</color> <!-- Rosa oscuro -->
+    <color name="romanceAccent">#FF4081</color> <!-- Magenta -->
+    <color name="romanceBackground">#F8BBD0</color> <!-- Rosa pastel -->
+    <color name="romanceText">#FF4081</color> <!-- Magenta -->
+</resources>

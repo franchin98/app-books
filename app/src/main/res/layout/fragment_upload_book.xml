@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.UploadBookFragment"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:padding="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingBottom="16dp">
+
+            <!-- Título -->
+            <TextView
+                android:id="@+id/uploadTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subir Libro"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_marginBottom="24dp" />
+
+            <EditText
+                android:id="@+id/titleEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Título del libro"
+                android:inputType="text"
+                android:layout_marginBottom="16dp"
+                android:padding="12dp" />
+
+            <EditText
+                android:id="@+id/descriptionEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Descripción"
+                android:inputType="textMultiLine"
+                android:lines="3"
+                android:layout_marginBottom="16dp"
+                android:padding="12dp" />
+
+            <Spinner
+                android:id="@+id/categorySpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:background="@drawable/rounded_spinner"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/selectFileButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seleccionar archivo PDF"
+                android:padding="16dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/selectedFileTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No se ha seleccionado ningún archivo PDF"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/selectCoverButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seleccionar portada"
+                android:padding="16dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/selectedCoverTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No se ha seleccionado ninguna portada"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/uploadBookButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Subir libro"
+                android:padding="16dp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:textColor="@color/white"
+                android:layout_marginTop="24dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

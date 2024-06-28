@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.firebase.unlam.applibros.ui.fragments.DashboardFragment"
+        android:label="Categorías"
+        tools:layout="@layout/fragment_dashboard">
+        <action
+            android:id="@+id/action_dashboardFragment_to_booksFragment"
+            app:destination="@id/booksFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.firebase.unlam.applibros.ui.fragments.FavoritesFragment"
+        android:label="Favoritos"
+        tools:layout="@layout/fragment_favorites" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.firebase.unlam.applibros.ui.fragments.ProfileFragment"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/booksFragment"
+        android:name="com.firebase.unlam.applibros.ui.fragments.BooksFragment"
+        android:label="Libros"
+        tools:layout="@layout/fragment_books">
+        <argument
+            android:name="category"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/uploadBookFragment"
+        android:name="com.firebase.unlam.applibros.ui.fragments.UploadBookFragment"
+        android:label="Subir libro"
+        tools:layout="@layout/fragment_upload_book" />
+
+</navigation>

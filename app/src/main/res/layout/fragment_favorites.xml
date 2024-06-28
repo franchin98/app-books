@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    tools:context=".ui.fragments.FavoritesFragment">
+
+
+    <TextView
+        android:id="@+id/topBooksTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Top 3 Libros Mejor Valorados"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:gravity="center"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="4dp"
+        app:cardElevation="2dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="4dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/topBookTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book Title"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/topBookCover"
+                android:layout_width="60dp"
+                android:layout_height="90dp"
+                android:contentDescription="@string/book_cover"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <RatingBar
+                android:id="@+id/topBookRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stepSize="0.5"
+                android:isIndicator="true"
+                android:scaleX="0.7"
+                android:scaleY="0.7" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="4dp"
+        app:cardElevation="2dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="4dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/secondBookTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book Title"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/secondBookCover"
+                android:layout_width="60dp"
+                android:layout_height="90dp"
+                android:contentDescription="@string/book_cover"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <RatingBar
+                android:id="@+id/secondBookRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stepSize="0.5"
+                android:isIndicator="true"
+                android:scaleX="0.7"
+                android:scaleY="0.7" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="4dp"
+        app:cardElevation="2dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="4dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/thirdBookTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book Title"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/thirdBookCover"
+                android:layout_width="60dp"
+                android:layout_height="90dp"
+                android:contentDescription="@string/book_cover"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <RatingBar
+                android:id="@+id/thirdBookRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stepSize="0.5"
+                android:isIndicator="true"
+                android:scaleX="0.7"
+                android:scaleY="0.7" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/illegalArgumentExceptionButton"
+            android:layout_width="80dp"
+            android:layout_height="32dp"
+            android:layout_margin="4dp"
+            android:text="IllegalArgument"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:textSize="8sp"
+            android:padding="2dp"/>
+
+        <Button
+            android:id="@+id/arithmeticExceptionButton"
+            android:layout_width="80dp"
+            android:layout_height="32dp"
+            android:layout_margin="4dp"
+            android:text="Arithmetic"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:textSize="8sp"
+            android:padding="2dp"/>
+    </LinearLayout>
+
+</LinearLayout>

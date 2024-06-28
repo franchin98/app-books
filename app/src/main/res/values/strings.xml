@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">AppLibros</string>
+    <string name="book_cover">Cover of the book</string>
+    <string name="new_book_uploads_channel_id">new_book_uploads</string>
+    <string name="new_book_uploads_channel_name">New Book Uploads</string>
+
+</resources>
+

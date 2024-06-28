@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "905264061180",
+    "project_id": "app-libros-3eaeb",
+    "storage_bucket": "app-libros-3eaeb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905264061180:android:ac66afad8091a972825579",
+        "android_client_info": {
+          "package_name": "com.firebase.unlam.applibros"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905264061180-1ud3skehhc1hv833s7fcvfbflgabs585.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.firebase.unlam.applibros",
+            "certificate_hash": "bd5d11150eb476dc091f4af9c2de06942db9bbf7"
+          }
+        },
+        {
+          "client_id": "905264061180-2c50lbsk783tldcgae3shkkthgrq2mo9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.firebase.unlam.applibros",
+            "certificate_hash": "1d92ba80533e1b9913702223d080695c0c540088"
+          }
+        },
+        {
+          "client_id": "905264061180-magtefc8kqoj5krvslf1i6ja81lu5n2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwZzVrA9DYI29lveJ6YS1R0YxLO9iPrmw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905264061180-magtefc8kqoj5krvslf1i6ja81lu5n2g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
